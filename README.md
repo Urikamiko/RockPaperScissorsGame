@@ -14,10 +14,10 @@
 
 ## Скриншоты
 
-![Исходное окно игры](https://drive.google.com/file/d/1L8nMaIXhUF7cD2aNVYFCizyh_o84YR-u/view?usp=drive_link)
+![Исходное окно игры](/screenshots/1.jpg)
 
-![Победа](https://drive.google.com/file/d/1HYYDxsD_4ZgZ-usZfoEL_rHPKYZeljB-/view?usp=drive_link)
+![Победа](/screenshots/2.jpg)
 
-![Ничья](https://drive.google.com/file/d/1Sm_Pg71IKiDS2LHEDayaYcRAle-XLU8b/view?usp=drive_link)
+![Ничья](/screenshots/3.jpg)
 
-![Поражение](https://drive.google.com/file/d/1OhOoANZa2B5Bplob2QeyqViI6h7nVfeD/view?usp=drive_link)
+![Поражение](/screenshots/4.jpg)
