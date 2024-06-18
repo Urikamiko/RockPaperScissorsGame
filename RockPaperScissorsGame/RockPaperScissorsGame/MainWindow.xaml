@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RockPaperScissorsGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="650" FontSize="20" MinWidth="650" MinHeight="300">
+        Title="Камень-Ножницы-Бумага" Height="300" Width="650" FontSize="20" MinWidth="650" MinHeight="300">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.5*"/>
@@ -20,14 +20,14 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Что выкинуть?:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Grid.Row="1" Grid.Column="0" Content="Камень" Margin="50 20 50 20"/>
-        <Button Grid.Row="1" Grid.Column="1" Content="Ножницы" Margin="50 20 50 20"/>
-        <Button Grid.Row="1" Grid.Column="2" Content="Бумага" Margin="50 20 50 20"/>
-        <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Content="Ничья!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="StoneButton" Grid.Row="1" Grid.Column="0" Content="Камень" Margin="50 20 50 20" Click="StoneButton_Click"/>
+        <Button x:Name="ScissorsButton" Grid.Row="1" Grid.Column="1" Content="Ножницы" Margin="50 20 50 20" Click="ScissorsButton_Click"/>
+        <Button x:Name="PaperButton" Grid.Row="1" Grid.Column="2" Content="Бумага" Margin="50 20 50 20" Click="PaperButton_Click"/>
+        <Label x:Name="ResultLabel" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Label Grid.Row="3" Grid.Column="0" Content="Ваш выбор:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Label Grid.Row="3" Grid.Column="2" Content="Выбор компьютера:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Grid.Row="4" Grid.Column="0" Content="Камень"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Grid.Row="4" Grid.Column="2" Content="Камень" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label x:Name="UserChoiceLabel" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label x:Name="CompChoiceLabel" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Label Grid.Row="4" Grid.Column="1" Content="Х" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Window>
